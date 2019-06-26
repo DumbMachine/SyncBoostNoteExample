@@ -1,5 +1,5 @@
 createdAt: "2019-06-26T13:12:08.057Z"
-updatedAt: "2019-06-26T13:12:39.760Z"
+updatedAt: "2019-06-26T13:17:35.713Z"
 type: "MARKDOWN_NOTE"
 folder: "4bfaf976594ec1b5be18"
 title: "Short Introduction about Markdown"
@@ -109,7 +109,7 @@ content: '''
   Here's a quiz about markdown images.
   
   Select the valid images:
-  - [ ] `[Google logo](https://www.google.ru/logo.png)`
+  - [x] `[Google logo](https://www.google.ru/logo.png)`
   - [x] `![](https://www.google.ru/logo.png)`
   
   > Images must be prefixed with an exclamation mark.
@@ -117,7 +117,7 @@ content: '''
   
   What is true about the following line: ```![Funny cat](http://cats.ru/funny.png "Share this")```
   - [x] if the url is 404, "Funny cat" will be displayed
-  - [ ] exclamation mark can be omitted in this case
+  - [x] exclamation mark can be omitted in this case
   - [ ] if the url is 404, "Share this" will be displayed
   - [x] on mouse over the image "Share this" will be displayed
   
