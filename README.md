@@ -23,9 +23,8 @@ $ tree
 # Index:
 # This following are the documents:
 - [SyncBoostNote](https://github.com/DumbMachine/SyncBoostNoteExample/blob/master/notes/syncboostnote/SyncBoostNote.md)
-- [SnycBoostNotes](https://github.com/DumbMachine/SyncBoostNoteExample/blob/master/notes/syncboostnote/SnycBoostNotes.md)
+- [Short Introduction about Markdown](https://github.com/DumbMachine/SyncBoostNoteExample/blob/master/notes/syncboostnote/Short%20Introduction%20about%20Markdown.md)
 - [Stolen Content](https://github.com/DumbMachine/SyncBoostNoteExample/blob/master/notes/syncboostnote/Stolen%20Content.md)
-- [Day: Tuesday  Date: June 18](https://github.com/DumbMachine/SyncBoostNoteExample/blob/master/notes/syncboostnote/Day:%20Tuesday%20%20Date:%20June%2018.md)
 - [Dillinger](https://github.com/DumbMachine/SyncBoostNoteExample/blob/master/notes/syncboostnote/Dillinger.md)
 
 ---

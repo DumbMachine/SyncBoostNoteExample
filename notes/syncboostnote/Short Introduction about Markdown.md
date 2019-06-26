@@ -1,0 +1,120 @@
+![Custom Shield](https://img.shields.io/badge/updatedAt-2019/06/26-green.svg?style=for-the-badge) ![Custom Shield](https://img.shields.io/badge/type-MARKDOWN_NOTE-blue.svg?style=for-the-badge) ![Custom Shield](https://img.shields.io/badge/folder-4bfaf976594ec1b5be18-blue.svg?style=for-the-badge)
+# Short Introduction about Markdown
+
+The Markdown language was created in 2004 by John Gruber with substantial contributions from Aaron Swartz, with the goal of allowing people “to write using an easy-to-read, easy-to-write plain text format, and optionally convert it to structurally valid XHTML (or HTML)”.
+
+Taking cues from existing conventions for marking up plain text in email such as setext, the language was designed to be readable as-is, without looking like it's been marked up with tags or formatting instructions, unlike text which has been formatted with a Markup language, such as HTML, which has obvious tags and formatting instructions. Markdown is a formatting syntax for text that can be read by humans and can be easily converted to HTML.
+
+Gruber wrote a Perl script, Markdown.pl, which converts marked-up text input to valid, well-formed XHTML or HTML and replaces left-pointing angle brackets ('<') and ampersands with their corresponding character entity references. It can be used as a standalone script, as a plugin for Blosxom or Movable Type, or as a text filter for BBEdit.
+
+Markdown has since been re-implemented by others as a Perl module available on CPAN (Text::Markdown), and in a variety of other programming languages. It is distributed under a BSD-style license and is included with, or available as a plugin for, several content-management systems.
+
+### Use Cases
+
+Markdown is used in **GitHub**, **GitBook**, **Reddit**, **Diaspora**, **Stack Overflow**, **OpenStreetMap**, and many others.
+
+Even this book is written using Markdown: [Raw content of this page](https://raw.githubusercontent.com/GitbookIO/markdown/master/about/README.md).
+
+### Files
+
+A markdown document is a text file with the `.md` extension. You can open a markdown file using a simple text editor.
+
+# Titles
+
+As we started writing a markdown document, we need to add a title and some sub-headers.
+
+Markdown supports two styles of headers, Setext and atx.
+
+Setext-style headers are “underlined” using equal signs (for first-level headers) and dashes (for second-level headers). For example:
+
+```
+This is an H1
+=============
+
+This is an H2
+-------------
+```
+
+Any number of underlining =’s or -’s will work.
+
+Atx-style headers use 1-6 hash characters at the start of the line, corresponding to header levels 1-6. For example:
+
+```
+# This is an H1
+
+## This is an H2
+
+###### This is an H6
+```
+
+
+Optionally, you may “close” atx-style headers. This is purely cosmetic — you can use this if you think it looks better. The closing hashes don’t even need to match the number of hashes used to open the header. (The number of opening hashes determines the header level.) :
+
+```
+# This is an H1 #
+
+## This is an H2 ##
+
+### This is an H3 ######
+```
+
+
+---
+
+Here's a quiz about markdown titles.
+
+Select the valid headers:
+- [x] `# hello`
+- [ ] `#hello`
+
+> Headers need space between the hash characters and the text.
+
+Select the valid headers:
+- [ ]  
+```
+test
+########
+```
+- [x]   
+```
+test
+=======
+```
+
+> Only '=' and '-' are accepted for underlining an header.
+
+---
+# Images
+
+```markdown
+# Inline
+![Alternative text](/path/to/img.jpg "Optional title")
+
+# Reference
+![Alternative text][id]
+[id]: url/to/image  "Optional title"
+```
+As you may have noticed, images in  Markdown are very similar to links. The difference is that:
+* the square brackets must be prefixed with an exclamation mark and
+* inside they may have some alternative text. A description of the image, which is displayed if the image can't be loaded.
+
+---
+
+Here's a quiz about markdown images.
+
+Select the valid images:
+- [ ] `[Google logo](https://www.google.ru/logo.png)`
+- [x] `![](https://www.google.ru/logo.png)`
+
+> Images must be prefixed with an exclamation mark.
+The alternative text and a title are optional.
+
+What is true about the following line: ```![Funny cat](http://cats.ru/funny.png "Share this")```
+- [x] if the url is 404, "Funny cat" will be displayed
+- [ ] exclamation mark can be omitted in this case
+- [ ] if the url is 404, "Share this" will be displayed
+- [x] on mouse over the image "Share this" will be displayed
+
+> Similarly to links, images can have 3 parts: the alternative text, the url and a title. An exclamation mark is nesessary.
+
+---
